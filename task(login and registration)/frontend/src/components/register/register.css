@@ -1,0 +1,11 @@
+.formregi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    width: 25%;
+    border-radius: 7px;
+
+    background-color: rgb(10, 33, 37);
+}

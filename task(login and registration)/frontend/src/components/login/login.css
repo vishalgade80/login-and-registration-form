@@ -1,0 +1,32 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(9, 78, 86);
+}
+.formlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 55%;
+    width: 25%;
+    border-radius: 7px;
+
+    background-color: rgb(10, 33, 37);
+}
+input{
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+}
+.btn{
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: none;
+}
