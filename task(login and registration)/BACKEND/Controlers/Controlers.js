@@ -47,7 +47,7 @@ export const register =async (req, res) => {
              return res.status(400).json({ message: 'Invalid credentials' });
            }
 
-           //res.status(200).json({ message: 'Login successful' });
+           
     const token = Jwt.sign({ userId: user._id,  }, 'key');
 
     
