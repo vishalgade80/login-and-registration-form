@@ -10,9 +10,3 @@ router.get("/getAll",getAll);
 export default router
 
 
-// {
-//     "name":"vishu",
-//     "email":"hi@gmail.com",
-//     "dateOfBirth":"2024-2-2",
-//     "password":"123"
-//   }
