@@ -15,7 +15,7 @@ const [Data,setData] =useState(
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/getAll');
+        const response = await axios.get('http://localhost:4999/getAll');
         setData(response.data);
       } catch (error) {
         console.log(error)
