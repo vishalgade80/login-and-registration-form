@@ -52,7 +52,7 @@ export const register =async (req, res) => {
 
     
     res.status(200).json({ token, message: 'Login successful' });
-           console.log("success")
+           
          } catch (err) {
            console.error(err.message);
            res.status(500).send('Server Error');
