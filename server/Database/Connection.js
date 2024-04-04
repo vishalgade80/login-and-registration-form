@@ -1,7 +1,6 @@
 import mongoose from 'mongoose'
-import dotenv from 'dotenv'
 dotenv.config();
-const URL = process.env.DB_URL
+const URL = 'mongodb://127.0.0.1/'
  const Connection = () =>{
 mongoose.connect(URL).then(()=>{
     console.log('Database connected successfully')
