@@ -1,5 +1,4 @@
 import mongoose from 'mongoose'
-dotenv.config();
 const URL = 'mongodb://127.0.0.1/'
  const Connection = () =>{
 mongoose.connect(URL).then(()=>{
